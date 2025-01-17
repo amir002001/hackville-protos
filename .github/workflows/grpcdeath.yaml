@@ -1,0 +1,14 @@
+name: GRPC Workshop - Death Challege
+
+on:
+    pull_request:
+        branches:
+            - main
+        paths:
+            - grpcdeath
+
+jobs:
+    test-solution:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "I am running voila"

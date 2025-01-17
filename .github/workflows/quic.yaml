@@ -1,0 +1,14 @@
+name: QUIC Workshop
+
+on:
+    pull_request:
+        branches:
+            - main
+        paths:
+            - quic
+
+jobs:
+    test-solution:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "I am running voila"

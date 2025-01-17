@@ -1,0 +1,14 @@
+name: WebSocket Workshop
+
+on:
+    pull_request:
+        branches:
+            - main
+        paths:
+            - websocket
+
+jobs:
+    test-solution:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "I am running voila"

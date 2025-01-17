@@ -1,0 +1,14 @@
+name: HTTP Workshop
+
+on:
+    pull_request:
+        branches:
+            - main
+        paths:
+            - http
+
+jobs:
+    test-solution:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "I am running voila"
