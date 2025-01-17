@@ -5,7 +5,7 @@ on:
         branches:
             - main
         paths:
-            - websocket
+            - websocket/**
 
 jobs:
     test-solution:

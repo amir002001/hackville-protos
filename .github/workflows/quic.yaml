@@ -5,7 +5,7 @@ on:
         branches:
             - main
         paths:
-            - quic
+            - quic/**
 
 jobs:
     test-solution:
