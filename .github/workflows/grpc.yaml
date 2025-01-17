@@ -1,0 +1,14 @@
+name: GRPC Workshop
+
+on:
+    pull_request:
+        branches:
+            - main
+        paths:
+            - grpc
+
+jobs:
+    test-solution:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "I am running voila"
